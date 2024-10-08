@@ -1,0 +1,6 @@
+.fitness-container{
+    background-image: url('https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?cs=srgb&dl=pexels-victorfreitas-841130.jpg&fm=jpg'); /* Add your image path here */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
