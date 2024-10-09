@@ -15,7 +15,7 @@ function FitnessTab()
             <NavBar/>
             <div className="fitness-container container mt-3 rounded-1">
             <div className="mt-3 ps-3 ms-5">
-                <h1 className="text-white fs-4 text">Disability</h1>
+                <h1 className="text-white fs-4 text">Under Construction...</h1>
             </div>
             <div className="container mt-3">
 <div className="btn-group ms-5">
