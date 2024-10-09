@@ -17,6 +17,7 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
+        <Route path='/' Component={SignIn}/>
         <Route path='login' Component={UserRegistration}/>
         <Route path='signin' Component={SignIn}/>
         <Route path='navbar' Component={NavBar}/>
