@@ -45,24 +45,24 @@ import StudentID from "../StudentID"
                     'email':email,
                     'password':password
                 }
-                try{
-                var response = await axios.post("https://api.softwareschool.co/auth/login",loginDetails)
-                console.log(response)
-                console.log(response.data.message)
-                if(response.data.message=="OK")
-                {
-                    setapimessage("loggedIn Successfully")
+                // try{
+                // var response = await axios.post("https://api.softwareschool.co/auth/login",loginDetails)
+                // console.log(response)
+                // console.log(response.data.message)
+                // if(response.data.message=="OK")
+                // {
+                //     setapimessage("loggedIn Successfully")
                     
-                }
-                else
-                {
-                    setapimessage("Invalid Credentials")
-                }
-            }
-            catch(ex)
-            {
-                console.log(ex.message)
-            }
+                // }
+                // else
+                // {
+                //     setapimessage("Invalid Credentials")
+                // }
+            //}
+            // catch(ex)
+            // {
+            //     console.log(ex.message)
+            // }
                 
             }
         }
