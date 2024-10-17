@@ -44,6 +44,7 @@ import ExerciseOptions from "./ExerciseOptions"
             if(errors == 0)
             {
                 console.log("calling api")
+                navigate('/ExerciseOptions');
                 console.log(email+" "+password)
                 var loginDetails={
                     'email':email,
